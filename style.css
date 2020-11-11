@@ -1,1 +1,168 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #2eb738;
+}
+
+body {
+  background-color: #2eb738;
+  min-width: 500px;
+  color: #2eb738;
+  font-family: Helvetica, "Noto Sans TC", sans-serif;
+}
+
+.h-mt-80 {
+  margin-top: 80px !important;
+}
+
+.h-mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.titleBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  max-width: 350px;
+  height: 366px;
+}
+
+.titleBlock__title {
+  font-size: 56px;
+  color: #2eb738;
+  font-weight: 600;
+}
+
+.titleBlock__subTitle {
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.titleBlock__decos {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.titleBlock__deco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+}
+
+.titleBlock__deco > span {
+  width: 280px;
+  border: 0.5px solid #2eb738;
+}
+
+.titleBlock__deco::after, .titleBlock__deco::before {
+  content: "x";
+}
+
+.numBlock {
+  border-radius: 100px 0px 30px 0px;
+  -webkit-box-shadow: 0px 3px 10px #d8d8d8;
+          box-shadow: 0px 3px 10px #d8d8d8;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 64px 40px;
+  max-width: 350px;
+  height: 366px;
+}
+
+.numBlock__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.numBlock__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 16.66667%;
+  color: #2eb738;
+}
+
+.numBlock__item:nth-child(1) {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 33.33333%;
+}
+
+.numBlock__listTitle {
+  font-size: 128px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 4px 3px 0 #f0f0f0;
+}
+
+.numBlock__number {
+  font-size: 24px;
+  color: #2eb738;
+}
+
+.footer {
+  background-color: #2eb738;
+  color: #ffffff;
+  text-align: right;
+  padding: 8px 0;
+}
+/*# sourceMappingURL=style.css.map */
